@@ -1,36 +1,275 @@
-<!DOCTYPE html> 
-<html lang="id"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Profil Saya</title> 
-<link rel="stylesheet" href="style.css"> 
-</head> 
-<body> 
-<div class="card"> 
-<img src="images/foto-profil.jpg" alt="Foto Profil" class="avatar"> 
-<h1>Mas'ud Hermansyah</h1> 
-        <p class="subtitle">Full Stack Developer & Designer</p> 
-         
-        <p class="bio"> 
-            Halo! Saya seorang pengembang web yang berfokus pada pembuatan 
-antarmuka pengguna yang bersih, responsif, dan mudah digunakan. 
-        </p> 
- 
-        <div class="skills"> 
-            <span class="badge">HTML</span> 
-            <span class="badge">CSS</span> 
-            <span class="badge">JavaScript</span> 
-            <span class="badge">React</span> 
-        </div> 
- 
-        <div class="links"> 
-            <a href="https://github.com" target="_blank" class="btn">GitHub</a> 
-            <a href="https://linkedin.com" target="_blank" 
-class="btn">LinkedIn</a> 
-            <a href="https://support.google.com/mail/answer/56256?hl=id" 
-class="btn btn-outline">Kontak</a> 
-        </div> 
-    </div> 
-</body> 
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portofolio - Fitria Inta Dwi Nurviana</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-content">
+
+            <div class="logo">
+                Portofolio
+            </div>
+
+            <nav>
+                <a href="#profil">Profil</a>
+                <a href="#projects">Proyek</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- Profil -->
+    <section id="profil" class="profile-section">
+
+        <div class="profile-card">
+
+            <img src="images/foto profil.jpg"
+                 alt="Foto Profil Fitria Inta Dwi Nurviana"
+                 class="profile-photo">
+
+            <h1>Fitria Inta Dwi Nurviana</h1>
+
+            <p class="profession">
+                Digital Business Student
+            </p>
+
+            <p class="description">
+                Halo! Saya Fitria Inta Dwi Nurviana, mahasiswa
+                Bisnis Digital yang memiliki ketertarikan pada 
+                teknologi, data, dan pengembangan digital. Saya 
+                senang mempelajari HTML, CSS, mengeksplorasi data,
+                menuangkan ide melalui desain dan tulisan, serta
+                terus mengembangkan kemampuan di bidang digital 
+                business
+            </p>
+
+
+            <!-- Skill -->
+            <div class="skills">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Digital Business</span>
+                <span>Excel</span>
+                <span>Creative Writing</span>
+
+            </div>
+
+
+            <!-- Tombol Profil -->
+            <div class="buttons">
+
+                <a href="https://github.com/fitria4inta" target="_blank" class="btn">
+                    GitHub
+                </a>
+
+                <a href="https://www.instagram.com/ftaadn_?igsi=MXM4ODN3ZzR6eHpnMQ==" target="_blank" class="btn">
+                    Instagram
+                </a>
+
+                <a href="https://www.linkedin.com/in/fitria-inta-2b5a3b3a6?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="btn">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:fitriainta07@gmail.com" class="btn">
+                    Email
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Proyek -->
+    <section id="projects" class="projects-section">
+
+        <div class="container">
+
+            <h2>Proyek Saya</h2>
+
+
+            <div class="project-grid">
+
+
+                <!-- Proyek 1 -->
+                <div class="project-card">
+
+                    <img src="images/project1.jpg"
+                         alt="Proyek Website">
+
+                    <div class="project-info">
+
+                        <h3>Website E-Commerce</h3>
+
+                        <p>
+                            Perancangan website toko online dengan
+                            tampilan sederhana, menarik, dan responsif
+                            untuk memberikan pengalaman pengguna yang
+                            nyaman.
+                        </p>
+
+                        <a href="#">
+                            Lihat Detail →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Proyek 2 -->
+                <div class="project-card">
+
+                    <img src="images/project2.jpg"
+                         alt="Proyek Dashboard">
+
+                    <div class="project-info">
+
+                        <h3>Dashboard Analitik</h3>
+
+                        <p>
+                            Dashboard untuk menampilkan dan
+                            memvisualisasikan data bisnis agar
+                            informasi dapat dipahami dengan lebih
+                            mudah.
+                        </p>
+
+                        <a href="#">
+                            Lihat Detail →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Proyek 3 -->
+                <div class="project-card">
+
+                    <img src="images/project3.jpg"
+                         alt="Proyek Aplikasi">
+
+                    <div class="project-info">
+
+                        <h3>Aplikasi Kasir</h3>
+
+                        <p>
+                            Aplikasi kasir sederhana yang digunakan
+                            untuk membantu pengelolaan produk dan
+                            transaksi penjualan.
+                        </p>
+
+                        <a href="#">
+                            Lihat Detail →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Kontak -->
+    <section id="contact" class="contact-section">
+
+        <div class="container">
+
+            <h2>Hubungi Saya</h2>
+
+
+            <form class="contact-form">
+
+                <div class="form-group">
+
+                    <label for="nama">
+                        Nama Lengkap
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nama"
+                        name="nama"
+                        placeholder="Masukkan nama Anda"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="nama@email.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="pesan">
+                        Pesan
+                    </label>
+
+                    <textarea
+                        id="pesan"
+                        name="pesan"
+                        rows="5"
+                        placeholder="Tuliskan pesan Anda..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit">
+                    Kirim Pesan
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Fitria Inta Dwi Nurviana
+        </p>
+
+    </footer>
+
+</body>
+
 </html>
